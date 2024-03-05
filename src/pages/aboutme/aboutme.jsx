@@ -5,16 +5,18 @@ export default function Home() {
     <div>
       <h1>About Me</h1>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
+        My name is Conner Martin and I am an aspiring developer.
+        <br />
+        I have experience using a variety of fundamental web development concepts including HTML, CSS, and Javascript.
+        <br />
+        I have experience working with servers, relational databases, and other back end technologies such as MySql, Node.js, Express.js, etc.
+        <br />
+        I have experience using NoSQL databases, MongoDB, and have converted traditional applications into progressive web applications.
+        <br />
+        I also have experience with the Handlebars.js, jQuery, and Bootstrap.
+        <br />
+        <br />
+        I am a fast and dedicated learner with have strong communication skills, and value loyalty and teamwork.
       </p>
     </div>
   );

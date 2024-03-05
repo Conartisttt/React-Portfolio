@@ -18,7 +18,7 @@ function Footer() {
                 to="https://github.com/Conartisttt"
                 target="_blank"
                 >
-                    <img className='logo' src={githublogo} alt="github logo" />
+                    <img className='logo glow' src={githublogo} alt="github logo" />
                 </Link>
             </div>
             <div className="col">
@@ -26,7 +26,7 @@ function Footer() {
                 to="https://www.linkedin.com/in/conartisttt/"
                 target="_blank"
                 >
-                    <img className='logo' src={linkedinlogo} alt='linkedin logo'></img>
+                    <img className='logo glow' src={linkedinlogo} alt='linkedin logo'></img>
                 </Link>
 
             </div>
@@ -35,7 +35,7 @@ function Footer() {
                 to="https://twitter.com/Conartisttt"
                 target="_blank"
                 >
-                    <img className='logo' src={twitterlogo} alt='twitter logo'></img>
+                    <img className='logo glow' src={twitterlogo} alt='twitter logo'></img>
                 </Link>
 
             </div>

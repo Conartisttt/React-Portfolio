@@ -6,9 +6,9 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 // import './App.css'
 
 import App from './App';
-import Error from './pages/Error';
-import Home from './pages/Home';
-import Contact from './pages/Contact';
+import Error from './pages/error/Error';
+import Home from './pages/home/Home';
+import Contact from './pages/contact/Contact';
 import About from './pages/about/About';
 import Portfolio from './pages/portfolio/Portfolio';
 

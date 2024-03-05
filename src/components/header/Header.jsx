@@ -1,6 +1,10 @@
 import { Link, useLocation } from 'react-router-dom';
+
+
+import logo from './assets/me.png'
+
+
 import './header.css'
-import logo from '../../assets/profile-picture.jpg'
 
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names

@@ -1,7 +1,7 @@
 // Bringing in the required import from 'react-router-dom'
 import { Outlet } from 'react-router-dom';
 import Header from './components/header/Header'
-import Footer from './components/Footer'
+import Footer from './components/footer/Footer'
 // import MatrixCode from './components/MatrixCode'
 
 function App() {

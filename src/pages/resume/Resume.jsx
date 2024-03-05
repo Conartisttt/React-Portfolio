@@ -1,4 +1,4 @@
-import './about.css'
+import './resume.css'
 
 export default function About() {
   return (

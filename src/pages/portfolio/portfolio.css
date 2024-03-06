@@ -1,0 +1,81 @@
+.tile1 {
+    width: 90%;
+    height: 250px;
+    background-image: url(./assets/matrix-chokehold.jpeg);
+    background-size: cover;
+    border-radius: 0px 0px 50px;
+}
+
+.tile2 {
+    width: 45%;
+    height: 170px;
+    background-image: url(./assets/matrix-kungfu.jpeg);
+    background-size: cover;
+    border-radius: 0px 0px 50px;
+}
+
+.tile3 {
+    width: 45%;
+    height: 170px;
+    background-image: url(./assets/matrix-hallway.jpeg);
+    background-size: cover;
+    border-radius: 0px 0px 50px;
+}
+
+.tile4 {
+    width: 45%;
+    height: 170px;
+    background-image: url(./assets/matrix-awakens.avif);
+    background-size: cover;
+    border-radius: 0px 0px 50px;
+}
+
+.tile5 {
+    width: 45%;
+    height: 170px;
+    background-image: url(./assets/matrix-zion.avif);
+    background-size: cover;
+    border-radius: 0px 0px 50px;
+}
+
+.tile6 {
+    width: 45%;
+    height: 170px;
+    background-image: url(./assets/matrix-architect.jpeg);
+    background-size: cover;
+    border-radius: 0px 0px 50px;
+}
+
+.tile7 {
+    width: 45%;
+    height: 170px;
+    background-image: url(./assets/matrix-bullets.png);
+    background-size: cover;
+    border-radius: 0px 0px 50px;
+}
+
+.git-heading {
+    background-color: white;
+    border-radius: 0px 0px 10px 0px;
+    font-size: 20px;
+    
+}
+
+.app-heading {
+    background-color: white;
+    border-radius: 0px 10px 0px 0px;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.hover:hover {
+    transition: transform 0.5s ease-in-out;
+    transition: box-shadow 0.5 ease-in-out;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px 5px greenyellow;;
+}
+
+.remove-styling {
+    text-decoration: none;
+    color: black;
+}

@@ -15,6 +15,20 @@ function Form() {
     return name === 'name' ? setName(value) : (name === 'email' ? setEmail(value) : setMessage(value));
   };
 
+  const handleOnBlur = (e) => {
+    // alert('input blured')
+    const input = e.target;
+    const { name } = e.target
+    if(!input.value) {
+        input.setAttribute('placeholder', `You Must Enter a ${name}`)
+    }
+    // console.log(input.value)
+    // input.setAttribute('data-toggle', 'tooltip');
+    // input.setAttribute('data-placement', 'top');
+    // input.setAttribute('title', 'You must enter something')
+
+  }
+
   const handleFormSubmit = (e) => {
     // Preventing the default behavior of the form submit (which is to refresh the page)
     e.preventDefault();
@@ -37,6 +51,7 @@ function Form() {
             value={name}
             name="name"
             onChange={handleInputChange}
+            onBlur={handleOnBlur}
             type="text"
             placeholder="Enter Name"
             />
@@ -50,6 +65,7 @@ function Form() {
             value={email}
             name="email"
             onChange={handleInputChange}
+            onBlur={handleOnBlur}
             type="email"
             placeholder="Enter Email Address"
             />
@@ -61,6 +77,7 @@ function Form() {
             className='form-control'
             id='textareaMessage'
             onChange={handleInputChange}
+            onBlur={handleOnBlur}
             name="message"
             rows={4}
             placeholder='Enter Message'

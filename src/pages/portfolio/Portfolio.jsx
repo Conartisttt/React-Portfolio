@@ -56,7 +56,7 @@ export default function Blog() {
           to="https://conartisttt.github.io/Cosmic-Counsel/"
           target="_blank"
           >
-          <h2 className='app-heading align-self-'>Cosmin Counsel</h2>
+          <h2 className='app-heading align-self-'>Cosmic Counsel</h2>
           </Link>
         </div>
 

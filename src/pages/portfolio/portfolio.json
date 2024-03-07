@@ -1,0 +1,53 @@
+{
+"apps" : [ 
+     {
+        "repo": "https://github.com/Conartisttt/Off-Road-Unstucker",
+        "app": "https://offthebeatenpath-c1b11d5328ea.herokuapp.com/",
+        "name": "Off The Beaten Path",
+        "tile": "tile1"
+      },
+      
+      {
+        "repo": "https://github.com/Conartisttt/Brewery-Finder",
+        "app": "https://elmiquea.github.io/Brewery-Finder/",
+        "name": "Brewery Finder",
+        "tile": "tile2"
+      },
+      
+     {
+        "repo": "https://github.com/Conartisttt/Cosmic-Counsel",
+        "app": "https://conartisttt.github.io/Cosmic-Counsel/",
+        "name": "Cosmic Counsel",
+        "tile": "tile3"
+      },
+      
+      {
+        "repo": "https://github.com/Conartisttt/PWA-Text-Editor",
+        "app": "https://pwa-text-editor-0wj9.onrender.com/",
+        "name": "PWA Text Editor",
+        "tile": "tile4" 
+      },
+
+    {
+        "repo": "https://github.com/Conartisttt/MVC-Tech-Blog",
+        "app": "https://afternoon-basin-69831-98d2be827880.herokuapp.com/",
+        "name": "Make It Count! Tech Blog",
+        "tile": "tile5" 
+      },
+      
+     {
+        "repo": "https://github.com/Conartisttt/OpenWeatherAPI-Dashboard",
+        "app": "https://conartisttt.github.io/OpenWeatherAPI-Dashboard/",
+        "name": "Weather Dashboard",
+        "tile": "tile6"
+      },
+      
+       {
+        "repo": "https://github.com/Conartisttt/3rdPrtyAPIs-Work-Day-Scheduler",
+        "app": "https://conartisttt.github.io/3rdPrtyAPIs-Work-Day-Scheduler/",
+        "name": "Work Day Scheduler",
+        "tile": "tile7" 
+      }
+      
+    ]
+    }

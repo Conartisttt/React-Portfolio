@@ -31,5 +31,6 @@ A screenshot of the application:
 - 
 
 ## Credits
-
+* Matrix Effect Component by Pablo.GG, or blopa on github
 * Application written by Conner Martin aka Conartisttt
+

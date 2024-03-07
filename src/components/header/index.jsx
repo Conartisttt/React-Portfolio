@@ -13,8 +13,6 @@ function Header() {
   
   const currentPage = useLocation().pathname;
 
-
-
   const handleToggle = () => {
     console.log('toggle');
     setShowMatrixBackground(!showMatrixBackground);
@@ -24,10 +22,6 @@ function Header() {
     document.querySelectorAll('input[type=checkbox][data-toggle="toggle"]').forEach(function (ele) {
       ele.bootstrapToggle();
     });
-
-    const spans = [...document.querySelectorAll('span')]
-    spans.map((ele) => ele.addEventListener('click', handleToggle))
-
   }, [showMatrixBackground]);
 
   return (
@@ -37,8 +31,8 @@ function Header() {
       <div className='d-flex flex-column align-items-center'>
       <img className='image' src={logo}></img>
       <h1 className='name'>Conartisttt</h1>
+      <div onClick={handleToggle}>
       <input
-      onChange={() => handleToggle()} 
       type="checkbox" 
       data-toggle="toggle"
       data-onlabel="Red Pill"
@@ -46,6 +40,7 @@ function Header() {
       data-onstyle = "danger"
       data-offstyle = "info"
       />
+      </div>
       
       </div>
     <ul className="nav nav-tabs justify-content-center">

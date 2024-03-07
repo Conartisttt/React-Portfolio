@@ -11,9 +11,9 @@ function Header() {
 
   return (
     <div>
-      <div className='d-flex justify-content-between'>
+      <div className='d-flex flex-column align-items-center'>
       <img className='image' src={logo}></img>
-      <h1 className='name align-self-end'>Conartisttt</h1>
+      <h1 className='name'>Conartisttt</h1>
       </div>
     <ul className="nav nav-tabs justify-content-center">
       <li className="nav-item">

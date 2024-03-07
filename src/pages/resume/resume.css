@@ -1,0 +1,13 @@
+.download-icon {
+    width: 100%;
+}
+
+.a-tag {
+    width: 150px;
+    height: 150px;
+}
+
+.grow:hover {
+    transform: scale(1.15);
+    transition: transform 0.5s ease-in-out;
+}

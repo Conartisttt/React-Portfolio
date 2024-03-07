@@ -16,17 +16,17 @@ function Form() {
   };
 
   const handleOnBlur = (e) => {
-    // alert('input blured')
     const input = e.target;
     const { name } = e.target
     if(!input.value) {
-        input.setAttribute('placeholder', `You Must Enter a ${name}`)
+        input.setAttribute('placeholder', `You Must Enter a ${name}`);
+        input.classList.add('red');
     }
-    // console.log(input.value)
-    // input.setAttribute('data-toggle', 'tooltip');
-    // input.setAttribute('data-placement', 'top');
-    // input.setAttribute('title', 'You must enter something')
+  }
 
+  const handleOnFocus = (e) => {
+    const input = e.target;
+    input.classList.remove('red');
   }
 
   const handleFormSubmit = (e) => {
@@ -52,6 +52,7 @@ function Form() {
             name="name"
             onChange={handleInputChange}
             onBlur={handleOnBlur}
+            onFocus={handleOnFocus}
             type="text"
             placeholder="Enter Name"
             />
@@ -66,6 +67,7 @@ function Form() {
             name="email"
             onChange={handleInputChange}
             onBlur={handleOnBlur}
+            onFocus={handleOnFocus}
             type="email"
             placeholder="Enter Email Address"
             />
@@ -78,6 +80,7 @@ function Form() {
             id='textareaMessage'
             onChange={handleInputChange}
             onBlur={handleOnBlur}
+            onFocus={handleOnFocus}
             name="message"
             rows={4}
             placeholder='Enter Message'

@@ -1,17 +1,36 @@
+import downloadIcon from './assets/download-icon.webp'
+import resume from './assets/resume.pdf'
+
 import './resume.css'
 
 export default function About() {
   return (
     <div>
-      <h1 className="yellow">About Page</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
+      <h1>Proficiences</h1>
+      <div className='d-flex justify-content-center'> 
+      <ul className='list-group w-75 text-center'>
+        <li className="list-group-item">HTML5</li>
+        <li className="list-group-item">CSS3</li>
+        <li className="list-group-item">JavaScript</li>
+        <li className="list-group-item">JQuery</li>
+        <li className="list-group-item">Bootstrap</li>
+        <li className="list-group-item">Node.js</li>
+        <li className="list-group-item">Express.js</li>
+        <li className="list-group-item">MySQL</li>
+        <li className="list-group-item">MongoDB</li>
+        <li className="list-group-item">Handlebars.js</li>
+        <li className="list-group-item">React.js</li>
+      </ul>
+      </div>
+      <h1>Resume</h1>
+      <div className='d-flex justify-content-center'>
+        <a
+        className='a-tag'
+        href={resume}
+        >
+        <img className='download-icon grow' src={downloadIcon} alt="download icon" />
+        </a>
+        </div>
     </div>
   );
 }

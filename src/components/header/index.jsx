@@ -2,9 +2,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { useState , useEffect } from 'react';
 import MatrixBackground from '../MatrixBackground'
 
-
 import logo from './assets/me.png'
-
 
 import './header.css'
 
@@ -14,7 +12,6 @@ function Header() {
   const currentPage = useLocation().pathname;
 
   const handleToggle = () => {
-    console.log('toggle');
     setShowMatrixBackground(!showMatrixBackground);
   }
 

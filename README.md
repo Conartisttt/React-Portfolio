@@ -6,18 +6,17 @@
 <br>
 [Technologies Used](#technologies-used)
 <br>
-[Usage](#usage)
-<br>
 [Credits](#credits)
 
 ## Description
 
 This is my single-page React portfolio to share my projets.
 
-This application is deployed using Netlify [here](insert link to deployed application)
+This application is deployed using Netlify [here](https://65eb7d3993097c141cfe7fce--conartisttt.netlify.app/)
 
 A screenshot of the application:
-![Text Editor Page](insert screenshot of application here)
+![Homepage Blue Pill](./assets/bluepill.png)
+![Homepage Red Pill](./assets/redpill.png)
 
 ## Technologies Used
 
@@ -25,8 +24,6 @@ A screenshot of the application:
 - React
 - React Router
 - Vite (local development server)
-
-## Usage
 
 ## Credits
 * Matrix Effect Component by Pablo.GG, or blopa on github
